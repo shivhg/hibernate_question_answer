@@ -16,6 +16,9 @@ public class Student {
 
     public Student(){};
 
+    @ManyToOne
+    private College college;
+
     public int getId() {
         return id;
     }
